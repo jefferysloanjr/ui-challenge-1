@@ -1,0 +1,16 @@
+body {
+  width: 480px;
+  margin: 0 auto;
+}
+
+header, nav, article, footer{
+  outline: 1px dotted black;
+  background-color: lightgrey;
+  margin: 0
+}
+
+@media screen and (min-width: 800px) {
+  body{
+    width: 960px
+  }
+}
